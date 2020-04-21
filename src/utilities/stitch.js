@@ -1,0 +1,12 @@
+import { Stitch } from "mongodb-stitch-browser-sdk";
+import { Stitch_Key} from "./constants";
+
+// TODO: Add your Stitch app's App ID
+const APP_ID = Stitch_Key;
+
+// TODO: Initialize the app client
+const app = Stitch.hasAppClient(APP_ID)
+  ? Stitch.getAppClient(APP_ID)
+  : Stitch.initializeAppClient(APP_ID);
+  
+export { app };
