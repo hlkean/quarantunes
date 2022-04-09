@@ -34,7 +34,7 @@
     "graphql": "^14.6.0",
     "graphql-tag": "^2.10.3",
     "hookrouter": "^1.2.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "mongodb-stitch-browser-sdk": "^4.5.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
